@@ -18,7 +18,7 @@
 
 - `HttpxRequest` Httpx请求库封装，具有`GET`、`POST`方法
 
-基于以上模块，Mixin后成为 `Wecom` 类，可通过`from wecom-sdk import Wecom`进行实例化
+基于以上模块，Mixin后成为 `Wecom` 类，可通过`from wecom_sdk import Wecom`进行实例化
 
 项目使用`Pydantic`库对数据建模，具有完备的类型提示与数据校验功能。
 
@@ -51,13 +51,13 @@
 
 ## 使用方法
 
-1. 安装`wecom-sdk`库
+1. 安装`wecom_sdk`库
 
 ```bash
-pip install wecom-sdk
+pip install wecom_sdk
 ```
 
-2. 在项目中引用`wecom-sdk`库
+2. 在项目中引用`wecom_sdk`库
 
 ```python
 from wecom_sdk import Wecom
