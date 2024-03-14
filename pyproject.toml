@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "wecom-sdk"
+version = "1.0.0"
+description = "Wecom SDK for Python"
+license = "MIT"
+authors = ["Jasar Ayiken <jaasaar@126.com>"]
+homepage = "https://github.com/TAHD3R/wecom-sdk"
+repository = "https://github.com/TAHD3R/wecom-sdk"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.27.0"
+pydantic = "^2.6.4"
+pydantic-settings = "^2.2.1"
+pytest = "^8.1.1"
+asyncio = "^3.4.3"
+pytest-asyncio = "^0.23.5.post1"
+isort = "^5.13.2"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
